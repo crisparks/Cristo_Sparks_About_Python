@@ -1,0 +1,173 @@
+
+body{
+    background-color: rgb(98, 98, 248)
+}
+#wrapper{
+    width: 970px;
+    margin: 0px auto;
+    padding: 5px;
+}
+   
+#header{
+    min-height: 150px;
+}
+#python{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+#python img {
+    vertical-align: bottom;
+    text-align: left;
+    display: inline-block;
+    width: 400px;
+
+}
+#special {
+    min-height: 100px;
+    width: 300px;
+    vertical-align: top;
+    text-align: right;
+    display: inline-block;
+    margin: 20px 0px 0px 320px;
+}
+#search {
+    display: inline-block;
+    color: white;
+}
+#search a{
+    color: goldenrod;
+}
+#searchfield {
+    background-color: grey;
+    width: 250px;
+    min-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    box-shadow: 3px 3px;
+    border-radius: 6px;
+    display: inline-block;
+}
+input[type=search] {
+    height: 30px;
+}
+
+.go{
+    background-color: rgb(98, 98, 248);
+    border: 1px white;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 1px 1px;
+}
+
+#navbar{
+    min-height: 50px;
+    background-color: rgb(129, 129, 224);
+    box-shadow: 3px 3px;
+    border-radius: 6px;
+    margin: 0px auto 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.button {
+    border: none;
+    color: white;
+    width: 94px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+}
+.button:hover {
+    background-color:rgb(102, 102, 240);
+}
+
+   
+#navigation{
+    min-height: 300px;
+    width: 200px;
+    display: inline-block;
+    margin: 0px 56px 0px 0px;
+    vertical-align: top;
+}
+#navigation ul{
+    color:white;
+    list-style-position: inside;
+    text-align: center;
+}
+#navigation ul a{
+    color: white;
+}
+
+#main_content{
+    min-height: 350px;
+    width: 700px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+}
+.quote {
+    color: goldenrod;
+    font-style: italic;
+    font: bold;
+}
+#info{
+    min-height: 120px;
+    background-color: seashell;
+}
+#info a{
+    color: blue;
+}
+.bluebar {
+    border: 2px solid rgb(98, 98, 248);
+}
+#startedcontent {
+    vertical-align: top;
+    width: 300px;
+    text-align: center;
+    list-style-position: outside;
+    margin: 0px 40px 0px 175px;
+    display: inline-block;
+}
+#appscontent {
+    vertical-align: top;
+    width: 300px;
+    text-align: center;
+    list-style-position: outside;
+    margin: 0px 175px 0px 40px;
+    display: inline-block;
+}
+#sauce{
+    height: 100px;
+    background-image: linear-gradient(rgb(98, 98, 248), rgb(192, 192, 247));
+    color:white;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 30px
+}
+#sauce a{
+    color: white;
+    text-decoration-line: none;
+}
+.button1 {
+    border: none;
+    color: white;
+    width: 175px;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+}
+.button1:hover {
+    background-color:rgb(102, 102, 240);
+}
